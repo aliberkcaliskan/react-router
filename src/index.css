@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.swiper-slide {
+  height: 100vh !important;
+}
+.swiper-slide:first-child {
+  background-color: blue;
+}
+.swiper-slide:nth-child(2) {
+  background-color: rgb(255, 0, 0);
+}
